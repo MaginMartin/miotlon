@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mio - Entrena con el corazon</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600i,700i,800i" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- <link rel="stylesheet" href="css/style-mio.css"> -->
+	<link rel="stylesheet" href="css/style-ranking.css">
+
+
+</head>
+<body>
+	<div class="navbar-mio">
+		<div class="container flex-between-row">
+			<div class="logo flex-center-row"><img src="img/home/logo-mio.png" alt=""></div>
+			<nav class="navegacion-desktop flex-between-row">
+				<li class="link-nav"><a href="#">miatlon</a></li>
+				<li class="link-nav"><a href="#">vot&Aacute;</a></li>
+				<li class="link-nav"><a href="#">particip&Aacute;</a></li>
+				<li class="link-nav"><a href="#">minipruebas</a></li>
+				<li class="link-nav"><a class="actual" href="ranking.html">ranking</a></li>
+				<li class="link-nav"><a href="#">#entrenaconmio</a></li>
+				<li class="link-nav"><a href="#">mi cuenta</a></li>
+			</nav>
+		</div>
+	</div>
+	<header class="main">
+		<div class="wrapper bg-ranking-top">
+			<img class="nombre-seccion" src="img/ranking/ranking.png" alt="">
+		</div>
+	</header>
+
+	<section class="la-previa">
+		<div class="container flex-center-column">
+			<h2 class="titular-h3 letter-green">
+				Clasificados
+			</h2>
+		</div>
+		<div class="container flex-center-column">
+			
+		</div>
+	</section>
+
+	
+	<footer class="mio-footer">
+		<div class="container">
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Miatlon</li>
+			<li class="footer-list-item">Sobre la competencia</li>
+			<li class="footer-list-item">Etapas</li>
+			<li class="footer-list-item">Inscripción</li>
+			<li class="footer-list-item">Clasificación</li>
+		</ul>
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Vot&Aacute;</li>
+			<li class="footer-list-item">Equipos</li>
+			<li class="footer-list-item">Competidores</li>
+			<li class="footer-list-item">Videos</li>
+		</ul>
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Entrenamiento</li>
+			<li class="footer-list-item">Alimentaci&oacute;n</li>
+			<li class="footer-list-item">Running</li>
+			<li class="footer-list-item">Ciclismo</li>
+			<li class="footer-list-item">Resistencia</li>
+		</ul>
+		<ul class="footer-list contacto">
+			<li class="footer-list-item footer-title">Newsletter</li>
+			<li class="footer-list-item">
+				<form class="field">
+				<input class="input-newsletter" type="text" placeholder="Suscribite a nuestro Newsletter">
+				<div class="btn-enviar-nl green"><a href="#">Enviar</a></div>
+				</form>
+			</li>
+			<li class="footer-list-item footer-title">Redes</li>
+			<li class="footer-list-item redes">
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-facebook.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-twitter.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-instagram.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-linkedin.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-googleplus.png" alt="">
+				</div>				
+			</li>
+		</ul>
+		</div>
+	</footer>
+
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/list.min.js"></script>
+	<script src="js/list.fuzzysearch.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src="js/jquery.prettyembed.min.js"></script>
+
+<!-- Slider Slick -->
+<script>
+	$(document).ready(function(){
+		$('.equipos-mio').slick({
+		slidesToShow: 4 ,
+		slidesToScroll: 1,
+		infinite: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		responsive: [
+			{
+		      breakpoint: 720,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				cssEase: 'easeInOutCubic'		        
+		      }
+		  },
+		  {
+		      breakpoint: 250,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+				autoplay: true,
+				autoplaySpeed: 500,
+				cssEase: 'easeInOutCubic'		        
+		      }
+		  }
+	      ]
+		});
+	});
+</script>
+<!-- FIN Slider Slick -->
+
+<!-- Busqueda difusa -->
+<script>
+var options = {
+  valueNames: [ 'hashes','gran-hash-center','gran-hash','desc-gran-hash','container-texto']
+};
+
+var userList = new List('feed-datos', options);	
+</script>
+<!-- FIN Busqueda difusa -->
+
+<script>
+$(document).ready(function(){
+	$('#youtube-1').prettyEmbed({
+	    videoID: 'ibzWBAKwopY',
+	    previewSize: 'hd',              // use either this option...
+	    customPreviewImage: '',         // ...or this option
+
+	    // Embed controls
+	    showInfo: false,
+	    showControls: false,
+	    loop: false,
+
+	    colorScheme: 'dark',
+	    showRelated: false,
+
+	    useFitVids: true
+	});
+
+	$('#youtube-2').prettyEmbed({
+	    videoID: 'gF0rrpMH-Jo',
+	    previewSize: 'high',              // use either this option...
+	    customPreviewImage: '',         // ...or this option
+
+	    // Embed controls
+	    showInfo: false,
+	    showControls: false,
+	    loop: false,
+
+	    colorScheme: 'dark',
+	    showRelated: false,
+
+	    useFitVids: true
+	});	
+
+});
+</script>
+
+<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop() != 0){
+				$('.navbar-mio').css('background','rgba(58,58,58,1)')
+			}else{
+				$('.navbar-mio').css('background','rgba(58,58,58,0)')
+			}
+		})
+
+	});
+
+</script>
+
+</body>
+</html>

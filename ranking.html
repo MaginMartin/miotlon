@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mio - Entrena con el corazon</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600i,700,700i,800i" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- <link rel="stylesheet" href="css/style-mio.css"> -->
+	<link rel="stylesheet" href="css/style-ranking.css">
+	<link rel="stylesheet" href="css/modal.css">
+
+
+</head>
+<body>
+<div class="wrapper-modal">
+    <div class="container-modal flex-start-column">
+        <div class="close"></div>
+        <h2 class="titular-h3">Ingres&aacute; / Registrate</h2>
+        <input type="text" class="data-input" placeholder="Usuario / Mail">
+        <input type="password" class="data-input" placeholder="Contraseña">
+        <div class="boton-log normal"><a href="dashboard_vacio.html">Enviar</a></div>
+        <div class="boton-log face"><a href="dashboard_vacio.html">con Facebook</a></div>
+        
+        <div class="rescue">
+            <h5><a href="">Olvid&eacute; mi usuario</a> | <a href="">Olvid&eacute; mi contrase&ntilde;a</a></h5>
+        </div>
+    </div>
+</div>
+	<div class="navbar-mio">
+		<div class="container flex-between-row">
+			<div class="logo flex-center-row"><a href="index.html"><img src="img/home/logo-mio.png" alt=""></a></div>
+			<nav class="navegacion-desktop flex-between-row">
+				<li class="link-nav"><a href="miotlon.html">miotlon</a></li>
+				<li class="link-nav"><a href="vota.html">vot&Aacute;</a></li>
+				<li class="link-nav"><a href="participa.html">particip&Aacute;</a></li>
+				<li class="link-nav"><a href="minipruebas.html">minipruebas</a></li>
+				<li class="link-nav"><a class="actual" href="ranking.html">ranking</a></li>
+				<li class="link-nav"><a href="entrenaconmio.html">#entrenaconmio</a></li>
+				<li class="link-nav trigger"><a href="#">mi cuenta</a></li>
+			</nav>
+		</div>
+	</div>
+	<header class="main">
+		<div class="wrapper bg-ranking-top">
+			<img class="nombre-seccion" src="img/ranking/ranking.png" alt="">
+		</div>
+	</header>
+
+	<section class="la-previa">
+		<div class="container flex-center-column">
+			<h2 class="titular-h3 letter-green">
+				Clasificados
+			</h2>
+		</div>
+		<div class="container flex-center-column">
+			
+		</div>
+	</section>
+
+	<section class="masonry-feed">
+		<div class="container">
+		<div id="feed-datos" class="feed-datos">
+			<div class="container flex-center-column search-container">
+				<h3 class="buscador-titulo">Buscar por equipo:</h3>
+				<input class="search buscador-input" placeholder="ingresa el nombre del equipo, hash, apodos, o nombre de participante"/>
+			</div>		
+			<ul class="listado-de-equipos flex-center-column">
+				<li class="item-equipo">
+					<h4 class="posicion"><span class="hashtag-pos">#</span>1</h4>
+					<div class="media-equipo">
+						<div class="video-container">
+							<div id="youtube-1" class="video">
+							</div>
+						</div>
+						<ul class="data-equipo">
+							<li>
+								<h5 class="puntos-mio">3260</h5><div class="icono-mio-heart"></div>
+							</li>
+							<li>
+								<ul class="redes">
+									<li><div class="icono-facebook"></div><p>100</p></li>
+									<li><div class="icono-twitter"></div><p>100</p></li>
+									<li><div class="icono-instagram"></div><p>100</p></li>
+								</ul>								
+							</li>
+							<li>
+								<h5 class="nombre-equipo">Gacelas del Sur</h5>
+							</li>
+							<li>
+								<h6><a class="web-team" href="">www.miotlon.com.ar/gacelasdelsur</a></h6>
+							</li>
+							<li class="miembros">
+								<h5 class="titulo-miembros">Miembros</h5>
+								<ul class="lista-miembros">
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador1.png" alt=""></div>
+										<h6 class="nombre">Fernando</h6>
+										<h6 class="apellido">Lopez</h6>
+									</li>
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador2.png" alt=""></div>
+										<h6 class="nombre">Sebastián</h6>
+										<h6 class="apellido">Lopez</h6>
+									</li>
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador3.png" alt=""></div>
+										<h6 class="nombre">Juliana</h6>
+										<h6 class="apellido">Saenz</h6>
+									</li>
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador4.png" alt=""></div>
+										<h6 class="nombre">Emilia</h6>
+										<h6 class="apellido">Rosas</h6>
+									</li>
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador5.png" alt=""></div>
+										<h6 class="nombre">Jorge</h6>
+										<h6 class="apellido">Caballero</h6>
+									</li>
+									<li class="miembro">
+										<div class="foto-miembro"><img src="img/ranking/jugador5.png" alt=""></div>
+										<h6 class="nombre">Jorge</h6>
+										<h6 class="apellido">Caballero</h6>
+									</li>
+																		
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="item-equipo">
+					<h4 class="posicion"><span class="hashtag-pos">#</span>2</h4>
+					<div class="media-equipo">
+						<div class="video-container">
+							<div id="youtube-2" class="video">
+							</div>
+						</div>
+						<ul class="data-equipo">
+							<li class="flex-start-column">
+									<div class="flex-start-row">
+										<h5 class="puntos-mio">2390</h5><div class="icono-mio-heart"></div>
+									</div>
+									<ul class="redes2 flex-start-row">
+										<li><div class="icono-facebook-med"></div><p>100</p></li>
+										<li><div class="icono-twitter-med"></div><p>100</p></li>
+										<li><div class="icono-instagram-med"></div><p>100</p></li>
+									</ul>
+							</li>
+							<li class="flex-start-column">
+								<h5 class="nombre-equipo">Running del Oeste</h5>
+								<h6> <a href="" class="web-team-sec">www.miotlon.com.ar/runningdeloeste</a> </h6>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="item-equipo">
+					<h4 class="posicion"><span class="hashtag-pos">#</span>3</h4>
+					<div class="media-equipo">
+						<div class="video-container">
+							<div id="youtube-3" class="video">
+							</div>
+						</div>
+						<ul class="data-equipo">
+							<li class="flex-start-column">
+									<div class="flex-start-row">
+										<h5 class="puntos-mio">2110</h5><div class="icono-mio-heart"></div>
+									</div>
+									<ul class="redes2 flex-start-row">
+										<li><div class="icono-facebook-med"></div><p>490</p></li>
+										<li><div class="icono-twitter-med"></div><p>1300</p></li>
+										<li><div class="icono-instagram-med"></div><p>580</p></li>
+									</ul>
+							</li>
+							<li class="flex-start-column">
+								<h5 class="nombre-equipo">Corre Caminos</h5>
+								<h6> <a href="" class="web-team-sec">www.miotlon.com.ar/correcaminos</a> </h6>
+							</li>
+						</ul>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">5</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">2350</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">Lazarillos</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">6</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">2130</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">Amigos de Forest</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">7</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1980</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">Marzanos Team</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">8</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1935</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">Gorun</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">9</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1822</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">MaderoRunning</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">10</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1790</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto">Sinparar</h6>
+				</li>				
+				<li class="">
+					<h5 class="alerta-h5">Aun no clasificados</h5>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">11</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1479</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Lazarillos</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">12</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1430</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Amigos de Forest</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">13</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1387</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Marzanos Team</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">14</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1221</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Gorun</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">15</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1200</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">MaderoRunning</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">16</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1105</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Sinparar</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">17</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1097</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Marzanos Team</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">18</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1024</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Gorun</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">19</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1022</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">MaderoRunning</h6>
+				</li>
+				<li class="item-equipo flex-start-row">
+					<h6 class="posicion-resto">20</h6>
+					<div class="puntos-mio-resto"><h6 class="puntos-resto">1015</h6><div class="icono-mio-heart-resto"></div>
+					<h6 class="nombre-equipo-resto no-clasificado">Sinparar</h6>
+				</li>											
+			</ul>
+		</div>
+	</div>		
+	</section>
+	<footer class="mio-footer">
+		<div class="container">
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Miatlon</li>
+			<li class="footer-list-item">Sobre la competencia</li>
+			<li class="footer-list-item">Etapas</li>
+			<li class="footer-list-item">Inscripción</li>
+			<li class="footer-list-item">Clasificación</li>
+		</ul>
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Vot&Aacute;</li>
+			<li class="footer-list-item">Equipos</li>
+			<li class="footer-list-item">Competidores</li>
+			<li class="footer-list-item">Videos</li>
+		</ul>
+		<ul class="footer-list">
+			<li class="footer-list-item footer-title">Entrenamiento</li>
+			<li class="footer-list-item">Alimentaci&oacute;n</li>
+			<li class="footer-list-item">Running</li>
+			<li class="footer-list-item">Ciclismo</li>
+			<li class="footer-list-item">Resistencia</li>
+		</ul>
+		<ul class="footer-list contacto">
+			<li class="footer-list-item footer-title">Newsletter</li>
+			<li class="footer-list-item">
+				<form class="field">
+				<input class="input-newsletter" type="text" placeholder="Suscribite a nuestro Newsletter">
+				<div class="btn-enviar-nl green"><a href="#">Enviar</a></div>
+				</form>
+			</li>
+			<li class="footer-list-item footer-title">Redes</li>
+			<li class="footer-list-item redes">
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-facebook.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-twitter.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-instagram.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-linkedin.png" alt="">
+				</div>
+				<div class="contenedor-icono-red">
+					<img class="icono-red" src="img/home/redes-googleplus.png" alt="">
+				</div>				
+			</li>
+		</ul>
+		</div>
+	</div>
+	</footer>
+
+	
+
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/list.min.js"></script>
+	<script src="js/list.fuzzysearch.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src="js/jquery.prettyembed.min.js"></script>
+
+<!-- Slider Slick -->
+<script>
+	$(document).ready(function(){
+		$('.equipos-mio').slick({
+		slidesToShow: 4 ,
+		slidesToScroll: 1,
+		infinite: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		responsive: [
+			{
+		      breakpoint: 720,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				cssEase: 'easeInOutCubic'		        
+		      }
+		  },
+		  {
+		      breakpoint: 250,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+				autoplay: true,
+				autoplaySpeed: 500,
+				cssEase: 'easeInOutCubic'		        
+		      }
+		  }
+	      ]
+		});
+	});
+</script>
+<!-- FIN Slider Slick -->
+
+<!-- Busqueda difusa -->
+<script>
+var options = {
+  valueNames: [ 'hashes','gran-hash-center','gran-hash','desc-gran-hash','container-texto']
+};
+
+var userList = new List('feed-datos', options);	
+</script>
+<!-- FIN Busqueda difusa -->
+
+<script>
+/*
+$(document).ready(function(){
+	$('#youtube-1').prettyEmbed({
+	    videoID: 'ibzWBAKwopY',
+	    previewSize: 'hd',              // use either this option...
+	    customPreviewImage: 'http://www.miotlon.com.ar/img/ranking/preview-video.jpg',    // ...or this option
+
+	    // Embed controls
+	    showInfo: false,
+	    showControls: false,
+	    loop: false,
+
+	    colorScheme: 'dark',
+	    showRelated: false,
+
+	    useFitVids: true
+	});
+
+	$('#youtube-2').prettyEmbed({
+	    videoID: 'gF0rrpMH-Jo',
+	    previewSize: 'high',              // use either this option...
+	    customPreviewImage: '',         // ...or this option
+
+	    // Embed controls
+	    showInfo: false,
+	    showControls: false,
+	    loop: false,
+
+	    colorScheme: 'dark',
+	    showRelated: false,
+
+	    useFitVids: true
+	});	
+
+}); */
+</script>
+
+<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop() != 0){
+				$('.navbar-mio').css('background','rgba(58,58,58,1)')
+			}else{
+				$('.navbar-mio').css('background','rgba(58,58,58,0)')
+			}
+		})
+
+	});
+
+</script>
+<script>
+    $(document).ready(function(){
+        $('.trigger').click(function(){
+            $('.wrapper-modal').toggleClass('popup');
+        }),
+        $('.close').click(function(){
+            $('.wrapper-modal').toggleClass('popup');
+        })    
+    });
+</script>
+</body>
+</html>
